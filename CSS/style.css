@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Chivo+Mono:wght@600&display=swap');
+/* rgba(100,74,174,255) */
+body{
+    background-color: rgb(231,164,72);
+}
+
+nav{
+    background-color: rgba(255,255,255,255);
+    font-family: 'Bruno Ace', cursive;
+    font-size: 18px;
+    /* align-items: center; */
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+nav a{
+    display: block;
+    color: rgba(35,35,35,255);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+   text-decoration: underline;
+}
+
+.logo{
+    left: -200px;
+    height: 120px;
+    width:100px;
+    position:relative;
+}
+
+.name{
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(255,255,255,255);
+    font-family: 'Bruno Ace', cursive;
+    /* list-style:; */
+};
